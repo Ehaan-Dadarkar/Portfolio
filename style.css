@@ -1,0 +1,491 @@
+html {
+    scroll-behavior: auto;
+    scroll-padding-top: 100px;
+}
+
+body {
+    background-image: linear-gradient(to right top, #000000, #0b0b0b, #141414, #1a1a1a, #202020, #252525, #2b2b2b, #303030, #353535, #3a3a3a, #3f3f3f, #444444);
+    margin: 0;
+    padding: 0;
+}
+
+.about-section-m {
+    display: none;
+}
+
+.notable-regular {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+}
+
+.roboto-mono {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.anton {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgba(10, 10, 10, 0.6), rgba(91, 91, 91, 0.6));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+.about-section {
+    padding: 210px 0;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.about-title {
+    display: inline;
+    padding-left: 30px;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.about-underline {
+    width: 25%;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+.name-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #bbb;
+    max-width: 600px;
+}
+
+.project-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.project-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    color: #fff;
+}
+
+.project-card h5 {
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+.project-underline {
+    padding-left: 10px;
+    width: 35%;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.project-section {
+    padding: 210px 0;
+}
+
+.badge-category {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.badge-category.active {
+    background-color: #d3d3d3;
+    color: #000;
+}
+
+.skill-card {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.skill-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.technical-title {
+    padding-bottom: 100px;
+}
+
+.skill-underline {
+    width: 30%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto 2rem auto;
+
+}
+
+.skill-group {
+    padding-top: 50px;
+}
+
+.skill-section {
+    padding: 210px 0;
+}
+
+.invert-icon {
+    filter: brightness(0) invert(1);
+}
+
+.education-underline {
+    width: 35%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto 2rem auto;
+}
+
+.education-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.education-card {
+    margin: 50px 0;
+    background-color: #00000066;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.education-top {
+    padding-bottom: 100px;
+}
+
+.education-section {
+    padding: 210px 0;
+}
+
+.expierience-card {
+    padding: 70px;
+    margin-bottom: 100px;
+    background-color: #00000066;
+    max-width: 800px;
+}
+
+.expierince-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
+.expierince-top {
+    padding-bottom: 100px;
+}
+
+.expierince-underline {
+    width: 20%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto 2rem auto;
+
+}
+
+.expierience-section {
+    padding: 210px 0;
+}
+
+.connect-container {
+    background: linear-gradient(to right, #111, #333);
+    color: #fff;
+    padding: 210px 0;
+}
+
+.connect-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.connect-underline {
+    width: 15%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto 2rem auto;
+
+}
+
+.contact-top {
+    padding-bottom: 60px;
+}
+
+.connect-text {
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.connect-links {
+    padding: 100px 100px;
+}
+
+.btn-connect {
+    background-color: #2d2d2d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-connect:hover {
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+
+    html {
+        scroll-padding-top: 0px;
+    }
+
+    .notable-regular {
+        font-size: 40px;
+    }
+
+    .about-title {
+        display: block;
+        padding: 0;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 600;
+    }
+
+    .about-underline {
+        display: block;
+        width: 215px;
+        margin: 0 auto 2rem auto;
+    }
+
+    .intro-text {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .name-heading {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .project-underline {
+        width: 70%;
+    }
+
+    .project-card {
+        margin: 0 50px;
+    }
+
+    .skill-underline {
+        width: 60%;
+    }
+
+    .skill-card {
+        margin: 0 20px;
+    }
+
+    .education-underline {
+        width: 90%;
+    }
+
+    .education-card {
+        margin: 0 20px;
+    }
+
+    .icon {
+        padding: 20px !important;
+    }
+
+    .expierince-underline {
+        width: 55%;
+    }
+
+    .expierience-card {
+        padding: 40px !important;
+        margin: 0 20px !important;
+    }
+
+    .connect-underline {
+        width: 60%;
+    }
+
+    .connect-text {
+        margin: 0 20px;
+    }
+
+    .skill-title,
+    .project-title,
+    .education-title,
+    .expierince-title,
+    .connect-title {
+        display: block;
+        padding-left: 0;
+        font-size: 2rem;
+    }
+
+    .name-heading {
+        font-size: 2rem;
+    }
+
+    .intro-text {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+
+    .project-section,
+    .skill-section,
+    .about-section {
+        padding: 100px 0;
+    }
+
+    .project-card {
+        padding: 20px !important;
+    }
+
+    .technical-title {
+        padding-bottom: 50px;
+    }
+
+    .badge-category {
+        margin: 5px 10px;
+    }
+
+    .skill-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .education-card,
+    .expierience-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center !important;
+    }
+
+
+
+    .connect-links {
+        flex-direction: column;
+    }
+
+
+    .navbar-collapse {
+        background-color: rgba(10, 10, 10, 0.6);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .navbar-nav {
+        background-color: transparent !important;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    #about {
+        display: none;
+    }
+
+  
+    .about-section-m {
+        display: block;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+
+    .about-mobile {
+        background-color: #1e1e1e;
+        color: white;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .about-mobile .card-img-top {
+        border-radius: 12px;
+        padding: 10px;
+        background-color: #333;
+    }
+
+    .about-mobile .card-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .about-mobile .card-text {
+        font-size: 1rem;
+        color: #ccc;
+    }
+}
